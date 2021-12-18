@@ -1,0 +1,187 @@
+body{
+    font-family: "Montserrat",sans-serif;
+}
+#main{
+    position: relative; bottom: 200px;
+}
+/* -------------------------------Nevigation Bar Section------------------------- */
+.navbar{
+    box-shadow: 0.1px 0.1px 50px lightgray;
+    padding: 0 6% 0 8%;
+}
+.nav-logo{
+    height: 50px;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-item{
+    font-size: 1.1rem; font-weight: 400;
+    padding-right: 10px;
+}
+.nav-item:hover{
+    font-size: 1.13rem; font-weight: 600;
+}
+
+/* -------------------------------Title Section---------------------------------- */
+#title{
+    height: 100%;
+}
+#title img{
+    width: 100%; height: 120%;
+}
+.title-content{
+    position: relative; bottom: 650px; left: 100px;
+    display: inline-block; width: 60%;
+}
+#title button{
+    margin: 3% 3% 0 0;
+}
+.title-content p{
+    font-size: 1.2rem;
+}
+@media (max-width: 1100px){
+    #main{
+        position: relative; bottom: 250px;
+    }
+    .title-content{
+        bottom: 550px; left: 25px;
+    }
+    .title-content h1{
+        font-size: 2.4rem;
+    }
+    .title-content p{
+        font-size: 1.4rem; padding-bottom: 3%;
+    }
+    .title-content button{
+        display: block;
+    }
+} 
+
+/* -------------------------------Product Section-------------------------------- */
+#product{
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+}
+.offer-img{
+    width: 100%; height: 347px;
+}
+.offer-txt{
+    width: 100%; height: 347px;
+}
+.jew-img{
+    height: 90%; width: 100%;
+}
+.jew img:hover{
+    box-shadow: 1px 1px 10px gray;
+}
+.spot-img{
+    height: 100%; width: 100%;
+}
+.spot-img:hover{
+    box-shadow: 1px 1px 10px gray;
+}
+#product h3,#blog h3{
+    font-weight: 600; padding-bottom: 0.5%;
+}
+#product p,#blog p{
+    margin-bottom: 3px; padding-top: 4%;
+}
+@media (max-width: 1100px){
+    #product p{
+        font-size: 1.5rem;
+        padding-top: 7%; padding-bottom: 1%;
+    }
+    #product h3{
+        font-size: 2.5rem;
+        padding-bottom: 2%;
+    }
+    .spot-img{
+        height: 90%;
+        padding: 0 3% 0 3%; 
+    }
+    .bottom-jew{
+        padding-top: 25%;
+    }
+    #product .tag{
+        padding-top: 2.5%;
+    }
+}
+/* -------------------------------Blog Section-------------------------------- */
+#blog{
+    text-align: center;
+}
+.blog-img{
+    height: 100%; width: 100%;
+}
+@media (max-width: 1100px){
+    .blog-img{
+        padding-top: 1%; height: 95%; width: 95%;
+    }
+    #blog p{
+        font-size: 1.5rem;
+        padding-top: 7%; padding-bottom: 1%;
+    }
+    #blog h3{
+        font-size: 2.5rem;
+        padding-bottom: 2%;
+    }
+}
+
+/* -------------------------------Highlight Section------------------------------ */
+#highlight{
+    text-align: center;
+    height: 400px;
+}
+#highlight div{
+    margin: 0; padding: 0;
+}
+#highlight h2{
+    margin-bottom: 3%; margin-top: 5%;
+    font-weight: 600;
+}
+#highlight li{
+    margin: 2%; padding: 1%;
+    background-color: white;
+    text-align: left;
+    border-left: 5px solid #FFCC1D; border-radius: 7px;
+    box-shadow: 1px 1px 100px lightgray;
+    position: relative;
+}
+#highlight img{
+    height: 60%; 
+    /* box-shadow: 1px 1px 100px lightgray; */
+}
+@media (max-width: 1100px){
+    #highlight{
+        height: 480px;
+    }
+    #highlight h2{
+        font-size: 3.5rem; font-weight: 600;
+        padding-top: 5%; padding-bottom: 3%;
+    }
+    #highlight li{
+        font-size: 1.5rem;
+    }
+}
+/* -------------------------------Footer Section--------------------------------- */
+#footer{
+    height: 250px;
+    background-color: #F0ECE3;
+    text-align: center;
+    position: relative; bottom: 100px;
+}
+#footer h3{
+    padding-top: 3%;
+}
+.fot{
+    color: gray;
+    padding: 3% 1% 5% 1%;
+}
+.fot:hover{
+    color: black;
+}
+
+/* -------------------------------------------END---------------------------------- */
