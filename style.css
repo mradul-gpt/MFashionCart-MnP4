@@ -119,10 +119,10 @@ body{
         padding: 0 3% 0 3%; 
     }
     .bottom-jew{
-        padding-top: 25%;
+        margin-top: 15%;
     }
     #product .tag{
-        margin-top: 2.5%;
+        padding-top: 2.5%;
     }
 }
 /* -------------------------------Blog Section-------------------------------- */
